@@ -1,0 +1,27 @@
+# PyTorch: install the CUDA build to embed and rerank on a GPU, e.g.
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.11
+sentence-transformers==6.1.0
+transformers==5.19.0
+tokenizers==0.23.3
+safetensors==0.8.0
+huggingface_hub==1.33.0
+faiss-cpu==1.15.1
+bm25s==0.3.13
+PyStemmer==3.1.0
+numpy==2.5.3
+pandas==2.3.3
+requests==2.34.2
+matplotlib==3.11.2
+pydantic==2.14.0
+fastapi==0.143.0
+uvicorn==0.54.0
+httpx==0.28.1
+pytest==9.1.1
+pyflakes==4.0.3
+jupyter==1.1.1
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.4.0
+# optional: OpenAI / Azure OpenAI provider (LABELRAG_LLM=openai|azure)
+# openai

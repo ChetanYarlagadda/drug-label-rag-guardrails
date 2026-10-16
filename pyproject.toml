@@ -1,0 +1,11 @@
+[project]
+name = "drug-label-rag-guardrails"
+version = "1.0.0"
+description = "Grounded question answering over FDA drug labels: hybrid retrieval, citations, refusals and deterministic guardrails, evaluated on answerable, unanswerable, out-of-scope and adversarial questions."
+requires-python = ">=3.10"
+license = "MIT"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore:Using `httpx` with `starlette.testclient`"]
