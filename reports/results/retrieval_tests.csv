@@ -1,0 +1,21 @@
+comparison,metric,n,value_a,value_b,diff,ci_low,ci_high,p_bootstrap,p_holm
+"hybrid vs BM25 (header, filter)",hit@1,150,0.8533,0.9067,0.0533,-0.0067,0.1133,0.0900,0.6300
+"hybrid vs dense (header, filter)",hit@1,150,0.8333,0.9067,0.0733,0.0200,0.1333,0.0160,0.1600
+"rerank vs hybrid (header, filter)",hit@1,150,0.9067,0.9600,0.0533,0.0067,0.1067,0.0470,0.3760
+"rerank vs hybrid (header, no filter)",hit@1,150,0.8533,0.9600,0.1067,0.0533,0.1600,0.0000,0.0000
+"drug filter vs none (header, rerank)",hit@1,150,0.9600,0.9600,0.0000,0.0000,0.0000,1.0000,1.0000
+"drug filter vs none (no header, hybrid)",hit@1,150,0.6800,0.7467,0.0667,0.0333,0.1067,0.0010,0.0110
+"chunk header vs none (no filter, BM25)",hit@1,150,0.6400,0.7467,0.1067,0.0533,0.1600,0.0000,0.0000
+"chunk header vs none (no filter, dense)",hit@1,150,0.4867,0.7400,0.2533,0.1800,0.3333,0.0000,0.0000
+"chunk header vs none (no filter, hybrid)",hit@1,150,0.6800,0.8533,0.1733,0.1067,0.2400,0.0000,0.0000
+"chunk header vs none (filter, hybrid)",hit@1,150,0.7467,0.9067,0.1600,0.1000,0.2267,0.0000,0.0000
+"hybrid vs BM25 (header, filter)",hit@5,150,0.9800,0.9933,0.0133,0.0000,0.0333,0.2640,1.0000
+"hybrid vs dense (header, filter)",hit@5,150,0.9667,0.9933,0.0267,0.0000,0.0600,0.1340,0.8040
+"rerank vs hybrid (header, filter)",hit@5,150,0.9933,1.0000,0.0067,0.0000,0.0200,0.7120,1.0000
+"rerank vs hybrid (header, no filter)",hit@5,150,0.9933,1.0000,0.0067,0.0000,0.0200,0.7120,1.0000
+"drug filter vs none (header, rerank)",hit@5,150,1.0000,1.0000,0.0000,0.0000,0.0000,1.0000,1.0000
+"drug filter vs none (no header, hybrid)",hit@5,150,0.8600,0.8867,0.0267,0.0067,0.0533,0.0310,0.2790
+"chunk header vs none (no filter, BM25)",hit@5,150,0.8867,0.9733,0.0867,0.0467,0.1333,0.0000,0.0000
+"chunk header vs none (no filter, dense)",hit@5,150,0.7733,0.9467,0.1733,0.1067,0.2400,0.0000,0.0000
+"chunk header vs none (no filter, hybrid)",hit@5,150,0.8600,0.9933,0.1333,0.0800,0.1933,0.0000,0.0000
+"chunk header vs none (filter, hybrid)",hit@5,150,0.8867,0.9933,0.1067,0.0600,0.1600,0.0000,0.0000

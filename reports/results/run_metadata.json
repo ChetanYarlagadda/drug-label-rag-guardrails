@@ -1,0 +1,105 @@
+{
+  "generated_utc": "2026-10-10T12:59:39+00:00",
+  "quick": false,
+  "disclaimer": "Not medical advice. Answers are generated automatically from excerpts of FDA drug labels (openFDA) and can be incomplete or wrong. Always consult a doctor or pharmacist before making decisions about a medicine.",
+  "data": {
+    "source": "openFDA drug label API (api.fda.gov/drug/label.json)",
+    "raw_files": {
+      "n_files": 207,
+      "bytes": 61192238,
+      "sha256": "94fe0f7b6fef19921b8c26e30b209a0ab9d4b67326946f6b507c88690171f351"
+    },
+    "n_drugs": 200,
+    "count_ranks_covered": [
+      1,
+      228
+    ],
+    "skipped_no_usable_label": [
+      "TRIAMCINOLONE ACETONIDE",
+      "NYSTATIN",
+      "BETAMETHASONE DIPROPIONATE",
+      "ERYTHROMYCIN",
+      "TEMAZEPAM",
+      "FLUOCINONIDE"
+    ],
+    "effective_time_range": [
+      "20260609",
+      "20260930"
+    ],
+    "n_chunks": 10675,
+    "chunk_words": [
+      120,
+      220
+    ]
+  },
+  "eval": {
+    "retrieval_questions": 194,
+    "retrieval_by_split": {
+      "test": 150,
+      "dev": 44
+    },
+    "generation_questions": 80,
+    "generation_by_category": {
+      "answerable": 40,
+      "adversarial": 16,
+      "unanswerable": 12,
+      "out_of_scope": 12
+    },
+    "dev_questions": 23,
+    "drug_split": {
+      "test": 150,
+      "dev": 50
+    },
+    "judge_sample": 31,
+    "reference_labels": 31
+  },
+  "retrieval_config": {
+    "header": true,
+    "method": "hybrid+rerank",
+    "dev_hit@5": 0.9772727272727273,
+    "dev_mrr@10": 0.9530303030303031,
+    "k": 5,
+    "rerank_depth": 20,
+    "embed_model": "BAAI/bge-small-en-v1.5",
+    "rerank_model": "Alibaba-NLP/gte-reranker-modernbert-base",
+    "fusion": "RRF k=60 over top-50 BM25 and dense"
+  },
+  "threshold_baseline_tau": 2.142578125,
+  "llm": {
+    "model": "ollama:qwen3:4b",
+    "options": {
+      "temperature": 0.0,
+      "seed": 0,
+      "num_ctx": 8192
+    },
+    "variants": [
+      "plain",
+      "guarded"
+    ]
+  },
+  "llm_usage": {
+    "calls_this_run": 211,
+    "cache_hits_this_run": 211,
+    "new_calls_this_run": 0,
+    "new_model_seconds_this_run": 0.0,
+    "cached_replies_total": 271,
+    "model_seconds_all_cached_replies": 461.2,
+    "median_latency_s": 1.5634942000033334
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "cpu": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "torch_threads": 2
+  },
+  "versions": {
+    "python": "3.12.10",
+    "torch": "2.11.0+cu128"
+  },
+  "timings_s": {
+    "data_s": 1.7,
+    "embed_gpu_s": 0.2,
+    "generation_s": 0.1,
+    "judge_s": 0.0,
+    "total_s": 18.0
+  }
+}

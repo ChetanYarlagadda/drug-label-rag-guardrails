@@ -1,0 +1,5 @@
+system,guard,action,outcome_before,n
+guarded+guards,format,refusal text replaced,refused,1
+guarded+guards,scope,answer blocked,answer where a refusal was expected,1
+plain+guards,format,refusal text replaced,refused,4
+plain+guards,numbers,answer blocked,answer where a refusal was expected,1

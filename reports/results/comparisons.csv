@@ -1,0 +1,7 @@
+comparison,metric,n,rate_a,rate_b,only_a,only_b,p_exact_mcnemar,p_holm
+plain (a) vs guarded (b),success,80,0.9250,0.9500,3,5,0.7266,1.0000
+plain (a) vs plain+guards (b),success,80,0.9250,0.9375,0,1,1.0000,1.0000
+guarded (a) vs guarded+guards (b),success,80,0.9500,0.9625,0,1,1.0000,1.0000
+plain+guards (a) vs guarded+guards (b),success,80,0.9375,0.9625,2,4,0.6875,1.0000
+closed-book (a) vs guarded+guards (b),correct,20,0.4000,0.9500,0,11,0.0010,0.0059
+plain (a) vs guarded (b),correct,40,0.9500,0.9500,2,2,1.0000,1.0000

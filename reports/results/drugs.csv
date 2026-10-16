@@ -1,0 +1,201 @@
+drug_id,name,generic_name,count_rank,n_labels,split,set_id,version,effective_time,manufacturer,route,n_sections,n_chunks
+gabapentin,gabapentin,GABAPENTIN,1,398,test,4a975ebe-ae0a-446a-8a3d-2ca325e28f93,2,20260911,REMEDYREPACK INC.,ORAL,12,63
+levothyroxine,levothyroxine,LEVOTHYROXINE SODIUM,2,272,dev,4c903249-69e9-4168-a9d1-22e6c2c1eb22,3,20260910,REMEDYREPACK INC.,ORAL,13,77
+metformin,metformin,METFORMIN HYDROCHLORIDE,3,247,test,d5228e81-9c86-4781-b984-20feaa2ae779,3,20260909,REMEDYREPACK INC.,ORAL,13,46
+prednisone,prednisone,PREDNISONE,4,241,test,0062fcc7-aa08-4990-9d33-d798725907f1,106,20260908,Bryant Ranch Prepack,ORAL,14,75
+ibuprofen,ibuprofen,IBUPROFEN,5,234,dev,2144eff0-d7ab-486d-b116-a4ff3ae2afe2,3,20260908,REMEDYREPACK INC.,ORAL,16,64
+atorvastatin,atorvastatin,ATORVASTATIN CALCIUM,6,232,dev,d9adb9e4-c495-9530-e5e3-7e3b01d53e4c,35,20260908,Apotex Corp.,ORAL,12,61
+bupropion,bupropion,BUPROPION HYDROCHLORIDE,7,227,dev,86530199-999b-9f92-b1bc-b8515ec829f3,23,20260909,Apotex Corp,ORAL,13,74
+pregabalin,pregabalin,PREGABALIN,8,225,dev,ab06a36d-9a2d-4eae-8991-4eab5bc8311c,3,20260911,REMEDYREPACK INC.,ORAL,12,99
+amoxicillin,amoxicillin,AMOXICILLIN,9,216,dev,4adc198e-39d8-4b3e-bfa4-278aaf4064ae,2,20260909,REMEDYREPACK INC.,ORAL,12,34
+diclofenac,diclofenac,DICLOFENAC SODIUM,10,195,test,5a852412-69af-6502-e063-6294a90a0748,1,20260902,"NuCare Pharmaceuticals, Inc.",ORAL,15,78
+potassium_chloride,potassium chloride,POTASSIUM CHLORIDE,12,176,dev,ea55ded1-e076-43de-ad3c-c75e7d0a4ebc,1,20260824,"Cardinal Health 107, LLC",ORAL,12,20
+acyclovir,acyclovir,ACYCLOVIR,13,173,test,c1744e01-0e40-4851-8ffc-c3bf29dd7c2b,3,20260831,REMEDYREPACK INC.,ORAL,10,31
+cyclobenzaprine,cyclobenzaprine,CYCLOBENZAPRINE HYDROCHLORIDE,14,169,test,5d536e88-62be-45bd-bd09-0efc53fe12b9,14,20260909,REMEDYREPACK INC.,ORAL,10,29
+baclofen,baclofen,BACLOFEN,15,168,dev,50b3e7be-832b-313d-e063-6394a90a5ab4,6,20260904,Atlantic Biologicals Corp.,ORAL,12,22
+buspirone,buspirone,BUSPIRONE HYDROCHLORIDE,16,163,dev,fa4d5cac-f687-4440-99d2-8bb27cf2f4ed,3,20260904,REMEDYREPACK INC.,ORAL,15,53
+levetiracetam,levetiracetam,LEVETIRACETAM,17,158,test,0348fec4-d919-4307-ac90-35360819bc00,7,20260904,"Cardinal Health 107, LLC",ORAL,11,72
+amoxicillin_and_clavulanate,amoxicillin and clavulanate,AMOXICILLIN AND CLAVULANATE POTASSIUM,18,157,test,704e99b1-c14a-40bf-adbd-c2794fa92c72,4,20260910,REMEDYREPACK INC.,ORAL,12,45
+metoprolol,metoprolol,METOPROLOL TARTRATE,19,157,dev,0ca72c89-82c5-4b31-b515-1a8b8e82ec59,1,20260910,REMEDYREPACK INC.,ORAL,12,43
+famotidine,famotidine,FAMOTIDINE,20,155,dev,669fbd46-cae5-4477-884e-8eca893d2e05,3,20260909,REMEDYREPACK INC.,ORAL,12,33
+lisinopril,lisinopril,LISINOPRIL,21,154,test,aa5d68e7-c2b9-41eb-ade4-2cd57edc1533,2,20260910,REMEDYREPACK INC.,ORAL,13,48
+cephalexin,cephalexin,CEPHALEXIN,22,149,test,e54df878-c235-4aa3-af33-fe5287c73138,37,20260914,"PD-Rx Pharmaceuticals, Inc.",ORAL,12,26
+furosemide,furosemide,FUROSEMIDE,23,148,test,dba00759-87b4-4ecf-998e-ba03ed3d2f1a,8,20260817,REMEDYREPACK INC.,ORAL,10,29
+lidocaine,lidocaine,LIDOCAINE HYDROCHLORIDE,24,148,test,23c8f711-e458-479a-9ab0-dcc851311e24,6,20260910,"Henry Schein, Inc.",EPIDURAL;INFILTRATION;INTRACAUDAL;PERINEURAL,10,38
+hydrocodone_and_acetaminophen,hydrocodone and acetaminophen,HYDROCODONE BITARTRATE AND ACETAMINOPHEN,25,146,dev,995a6cc7-8b72-4d35-b3b4-8c5752438fb7,4,20260728,Hikma Pharmaceuticals USA Inc.,ORAL,16,107
+metronidazole,metronidazole,METRONIDAZOLE,26,146,test,4040db14-750f-6d20-e054-00144ff8d46c,9,20260826,"NuCare Pharmaceuticals, Inc.",ORAL,16,47
+ketorolac,ketorolac,KETOROLAC TROMETHAMINE,28,145,test,2a23b0fa-803c-4abb-b588-12cfe83326a9,3,20260903,Sportpharm LLC,INTRAMUSCULAR,16,86
+topiramate,topiramate,TOPIRAMATE,30,145,dev,3f99b26b-79b9-4efb-aa2c-2868e1e126c8,3,20260904,REMEDYREPACK INC.,ORAL,12,113
+hydroxyzine,hydroxyzine,HYDROXYZINE HYDROCHLORIDE,31,141,test,58d99cf6-2319-410b-b8be-de9c304541b6,3,20260908,REMEDYREPACK INC.,ORAL,12,16
+methocarbamol,methocarbamol,METHOCARBAMOL,32,141,test,05b287d3-5004-4d8b-9ebe-a96caa2b8d89,6,20260827,"Cardinal Health 107, LLC",ORAL,14,17
+tadalafil,tadalafil,TADALAFIL,33,140,test,81222924-29d9-4031-954d-132923867b8e,1,20260909,A-S Medication Solutions,ORAL,12,91
+doxycycline,doxycycline,DOXYCYCLINE HYCLATE,34,139,test,051654c7-8ba6-44f2-842c-72f515e9b32d,2,20260915,REMEDYREPACK INC.,ORAL,13,37
+propranolol,propranolol,PROPRANOLOL HYDROCHLORIDE,35,138,test,5affa0ea-db84-86fd-e063-6294a90a4d16,1,20260908,"Golden State Medical Supply, Inc.",ORAL,15,55
+hydrochlorothiazide,hydrochlorothiazide,HYDROCHLOROTHIAZIDE,36,137,dev,f20fd735-30c7-4f89-8ceb-b6186646eea6,5,20260827,REMEDYREPACK INC.,ORAL,12,28
+ondansetron,ondansetron,ONDANSETRON,37,136,test,416be720-82e8-4a6d-8531-c1a29869daae,4,20260901,REMEDYREPACK INC.,ORAL,12,42
+fenofibrate,fenofibrate,FENOFIBRATE,38,135,test,c870ea48-5dde-4a6f-9ddb-56b494bb2b55,6,20260909,A-S Medication Solutions,ORAL,13,49
+omeprazole,omeprazole,OMEPRAZOLE,39,135,dev,63b3982a-b541-4b0d-99d4-93a673e57d46,8,20260828,REMEDYREPACK INC.,ORAL,12,87
+sertraline,sertraline,SERTRALINE HYDROCHLORIDE,40,134,test,7d598f1a-6c76-458a-a155-7a6a0743a2d3,3,20260903,REMEDYREPACK INC.,ORAL,13,67
+allopurinol,allopurinol,ALLOPURINOL,41,133,test,8f50e91e-66a7-4fd4-888a-9f1986aa661c,3,20260910,REMEDYREPACK INC.,ORAL,12,49
+losartan,losartan,LOSARTAN POTASSIUM,42,133,test,a397502e-abe7-49cf-97c7-d53a616947eb,4,20260903,REMEDYREPACK INC.,ORAL,13,49
+celecoxib,celecoxib,CELECOXIB,43,132,test,3a1eadd5-c0a7-473e-bde0-6b9450d11c95,2,20260902,Major Pharmaceuticals,ORAL,13,90
+estradiol,estradiol,ESTRADIOL,45,131,dev,c8a2d29c-299c-4559-b859-87b303a4af81,13,20260828,A-S Medication Solutions,VAGINAL,15,45
+sildenafil,sildenafil,SILDENAFIL,46,130,test,174ef537-e3e6-42bd-a478-47b930ddc761,7,20260831,"Preferred Pharmaceuticals, Inc.",ORAL,12,73
+venlafaxine,venlafaxine,VENLAFAXINE HYDROCHLORIDE,47,129,dev,c41d847b-88ba-49a5-9d73-269ac4caa4ed,4,20260903,REMEDYREPACK INC.,ORAL,13,79
+rosuvastatin,rosuvastatin,ROSUVASTATIN CALCIUM,48,128,test,cb942007-6ef1-4445-8dbd-6f4972148bf1,4,20260909,REMEDYREPACK INC.,ORAL,12,58
+naproxen,naproxen,NAPROXEN,49,126,dev,5954565a-d9bd-9e26-e063-6294a90a03cb,1,20260818,Coupler LLC,ORAL,13,70
+amlodipine,amlodipine,AMLODIPINE BESYLATE,50,124,test,5af8493b-2b73-859c-e063-6394a90a4620,1,20260908,Coupler LLC,ORAL,12,37
+spironolactone,spironolactone,SPIRONOLACTONE,51,122,dev,8b76a904-6c99-485a-a05f-13a36c5f720c,5,20260915,REMEDYREPACK INC.,ORAL,12,32
+meloxicam,meloxicam,MELOXICAM,52,119,dev,385b7cf4-976a-4a58-9ebc-def8b6e78b75,23,20260819,REMEDYREPACK INC.,ORAL,13,73
+divalproex,divalproex,DIVALPROEX SODIUM,53,118,dev,d524db34-99c4-4837-a532-a619f82c21ba,3,20260821,Bryant Ranch Prepack,ORAL,13,120
+pravastatin,pravastatin,PRAVASTATIN SODIUM,54,118,test,6cef5e92-26b7-435c-878f-72a05a624560,3,20260910,REMEDYREPACK INC.,ORAL,12,48
+dicyclomine,dicyclomine,DICYCLOMINE HYDROCHLORIDE,55,116,test,6d7e73b0-3f7e-462f-92eb-cc82919c8095,2,20260910,Hikma Pharmaceuticals USA Inc.,ORAL,12,31
+glycopyrrolate,glycopyrrolate,GLYCOPYRROLATE,56,115,dev,62e1ba35-bc84-4818-be54-8b534a1bf93c,2,20260910,QUAGEN PHARMACEUTICALS LLC,ORAL,12,33
+zolpidem,zolpidem,ZOLPIDEM TARTRATE,57,115,test,1584bad1-7bf4-4805-bdd9-7eb0fac92721,27,20260901,Torrent Pharmaceuticals Limited,ORAL,13,57
+aripiprazole,aripiprazole,ARIPIPRAZOLE,58,113,test,b72c0cff-9f4d-42e2-b884-d06dea3e6378,1,20260908,REMEDYREPACK INC.,ORAL,13,112
+amitriptyline,amitriptyline,AMITRIPTYLINE HYDROCHLORIDE,59,112,test,61b29703-cfc2-45c7-ae24-7bf3b77e8587,4,20260909,REMEDYREPACK INC.,ORAL,16,56
+simvastatin,simvastatin,SIMVASTATIN,60,111,test,3f6fad0b-0278-433f-86db-761b673a5803,4,20260831,"Preferred Pharmaceuticals, Inc.",ORAL,12,55
+clonidine,clonidine,CLONIDINE HYDROCHLORIDE,61,110,test,6d7cfb02-e580-4658-a2fe-2149b515d434,2,20260909,REMEDYREPACK INC.,ORAL,13,28
+carvedilol,carvedilol,CARVEDILOL,62,109,test,d7d6bfff-fbb6-4a1f-aa13-babbb9a1e878,4,20260909,REMEDYREPACK INC.,ORAL,12,65
+phentermine,phentermine,PHENTERMINE HYDROCHLORIDE,63,109,test,129e781c-5366-4986-8e67-6b35fa4c3f39,6,20260817,Preferred Pharmaceuticals Inc.,ORAL,12,24
+diltiazem,diltiazem,DILTIAZEM HYDROCHLORIDE,64,108,test,5a0f67ad-17d8-a3f4-e063-6394a90afb32,1,20260827,"Golden State Medical Supply, Inc.",ORAL,15,53
+benzonatate,benzonatate,BENZONATATE,66,104,test,324f65ae-09d1-4bd6-9d2b-593035201ecd,6,20260902,Major Pharmaceuticals,ORAL,13,16
+lorazepam,lorazepam,LORAZEPAM,67,101,test,c0810422-b732-4c04-97d8-c1521c401ef4,1,20260910,"Clinical Solutions Wholesale, LLC",ORAL,15,39
+trazodone,trazodone,TRAZODONE HYDROCHLORIDE,68,101,test,fa7afa93-b98c-4dc7-bbb8-ab6a058427b9,3,20260908,REMEDYREPACK INC.,ORAL,13,41
+glipizide,glipizide,GLIPIZIDE,69,100,test,00729e82-150a-464a-abe7-a3319721fbdb,102,20260827,Bryant Ranch Prepack,ORAL,15,39
+azithromycin,azithromycin,AZITHROMYCIN,70,99,test,94e17ae5-0871-67a0-e053-2995a90ae0ae,6,20260909,"NuCare Pharmaceuticals,Inc.",ORAL,12,56
+fluconazole,fluconazole,FLUCONAZOLE,71,98,test,aaf9e5f8-048e-407c-bc11-ad4edff85c05,3,20260910,REMEDYREPACK INC.,ORAL,14,105
+lamotrigine,lamotrigine,LAMOTRIGINE,72,98,test,20e156df-a2b6-4710-b526-0419cd17dd33,21,20260904,"Cardinal Health 107, LLC",ORAL,13,135
+fluoxetine,fluoxetine,FLUOXETINE HYDROCHLORIDE,73,96,test,a08dadff-f209-48dc-b597-6f085be13640,3,20260910,REMEDYREPACK INC.,ORAL,13,111
+quetiapine,quetiapine,QUETIAPINE FUMARATE,74,96,dev,711f42c5-0719-46de-81fb-3d03801b9ed9,3,20260825,Preferred Pharmaceuticals Inc.,ORAL,13,124
+olanzapine,olanzapine,OLANZAPINE,76,95,test,5af81f87-5582-aa23-e063-6294a90a1ee8,1,20260908,Coupler LLC,ORAL,13,130
+albuterol,albuterol,ALBUTEROL SULFATE,77,94,dev,17858afa-dcdf-4612-b475-3b6baadfb639,5,20260806,"Armstrong Pharmaceuticals, Inc.",RESPIRATORY (INHALATION),12,41
+atenolol,atenolol,ATENOLOL,78,94,test,897e18f6-3b57-4ef0-85ff-9dfa23521eb9,3,20260903,REMEDYREPACK INC.,ORAL,14,51
+clonazepam,clonazepam,CLONAZEPAM,79,94,test,2606ecf9-3d71-4c1c-bfda-d7d98ffc6011,8,20260827,REMEDYREPACK INC.,ORAL,16,70
+hydralazine,hydralazine,HYDRALAZINE HYDROCHLORIDE,80,94,test,51c293c1-70e7-48c7-8af1-a8b74312ed56,3,20260908,REMEDYREPACK INC.,ORAL,10,18
+promethazine,promethazine,PROMETHAZINE HYDROCHLORIDE,81,94,test,5a797d11-19b0-fd33-e063-6394a90a4d58,1,20260902,Redpharm Drug,ORAL,16,35
+clobetasol,clobetasol,CLOBETASOL PROPIONATE,82,93,test,a83d212b-a970-4ee7-8431-fead6b2e7f9d,9,20260717,Alembic Pharmaceuticals Inc.,TOPICAL,11,29
+tramadol,tramadol,TRAMADOL HYDROCHLORIDE,83,91,test,c6104e62-5b2c-41a1-afb3-00dcf267a384,3,20260901,REMEDYREPACK INC.,ORAL,13,108
+mirtazapine,mirtazapine,MIRTAZAPINE,84,90,dev,63f140c2-2a18-4dea-96fe-2658dda28a0c,1,20260916,"NCS HealthCare of KY, LLC dba Vangard Labs",ORAL,13,56
+pantoprazole,pantoprazole,PANTOPRAZOLE SODIUM,85,90,test,70378eba-3904-4491-9f6d-00f5d1501c4a,2,20260930,"Avenacy, LLC",INTRAVENOUS,12,61
+verapamil,verapamil,VERAPAMIL HYDROCHLORIDE,86,90,test,9c89764e-ff07-4077-a40f-91eb1c179af2,6,20260818,Micro Labs Limited,INTRAVENOUS,14,34
+nifedipine,nifedipine,NIFEDIPINE,87,88,test,4ee466dc-5a4e-4c77-8e94-8b510cafd61b,7,20260804,"Preferred Pharmaceuticals, Inc.",ORAL,14,48
+doxepin,doxepin,DOXEPIN HYDROCHLORIDE,88,87,dev,2a9c2159-e89e-47e4-b91c-ac5560607a2d,2,20260904,REMEDYREPACK INC.,ORAL,12,42
+dexamethasone,dexamethasone,DEXAMETHASONE,89,86,test,8c5375a7-7a0d-4af0-8b86-bc87698ac3d1,3,20260904,REMEDYREPACK INC.,ORAL,15,46
+hydrocortisone,hydrocortisone,HYDROCORTISONE,90,86,test,506aab0d-9308-4d60-90b3-7d64952fff36,7,20260831,American Health Packaging,ORAL,9,20
+sulfamethoxazole_and_trimethoprim,sulfamethoxazole and trimethoprim,SULFAMETHOXAZOLE AND TRIMETHOPRIM,91,86,test,c6171b62-835c-465e-905e-97f70438186e,3,20260902,Preferred Pharmaceuticals Inc.,ORAL,15,59
+diazepam,diazepam,DIAZEPAM,92,85,test,ba953b22-f0cd-4be5-9e0e-178bded88727,19,20260827,"Cardinal Health 107, LLC",ORAL,16,48
+duloxetine,duloxetine,DULOXETINE,93,85,test,79bfd6be-a1ff-4786-b4e2-abbd0a3e3932,2,20260909,"HAWAII REPACK, INC.",ORAL,13,108
+tizanidine,tizanidine,TIZANIDINE,96,82,test,7ce17c02-7f1f-4d52-8b6f-52e385e12239,1,20260904,Aurobindo Pharma Limited,ORAL,12,39
+labetalol,labetalol,LABETALOL HYDROCHLORIDE,97,80,test,63db5b00-e864-4b2d-84f2-00bf35211b9b,6,20260904,"Cardinal Health 107, LLC",ORAL,15,47
+chlorthalidone,chlorthalidone,CHLORTHALIDONE,99,79,test,5de362df-8fb9-4421-864c-7ea06339d6e7,1,20260805,Macleods Pharmaceuticals Limited,ORAL,14,23
+clindamycin,clindamycin,CLINDAMYCIN PHOSPHATE,100,78,dev,b52bdaf7-3b54-4165-9ab0-9dfa08170e47,22,20260806,Mylan Pharmaceuticals Inc.,VAGINAL,15,28
+esomeprazole,esomeprazole,ESOMEPRAZOLE MAGNESIUM,101,78,test,f907e633-4080-44ae-829f-141497876922,7,20260902,Torrent Pharmaceuticals Limited,ORAL,12,95
+oxybutynin_chloride,oxybutynin chloride,OXYBUTYNIN CHLORIDE,102,78,test,1a08a16a-f16d-4ef1-95bb-6943bcae0737,10,20260728,REMEDYREPACK INC.,ORAL,15,30
+vancomycin,vancomycin,VANCOMYCIN HYDROCHLORIDE,103,78,dev,bc737938-ae36-460b-a2a8-609f3fe59156,6,20260817,Cameron Pharmaceuticals,ORAL,12,30
+alprazolam,alprazolam,ALPRAZOLAM,104,76,test,563e09db-2f3d-4ce8-b356-ae44477be6d0,2,20260827,REMEDYREPACK INC.,ORAL,13,52
+epinephrine,epinephrine,EPINEPHRINE,105,76,test,55befbe4-c819-4367-bbe7-de5841786aac,3,20260903,REMEDYREPACK INC.,INTRAMUSCULAR;INTRAOCULAR;INTRAVENOUS;SUBCUTANEOUS,12,40
+escitalopram,escitalopram,ESCITALOPRAM,106,76,test,d75e3b97-1ead-4e7b-9ae3-3626aede1efd,3,20260903,REMEDYREPACK INC.,ORAL,13,78
+haloperidol,haloperidol,HALOPERIDOL,107,76,test,a0751f2e-05ab-4ba9-9bae-7b791bf1a621,3,20260831,REMEDYREPACK INC.,ORAL,11,45
+indomethacin,indomethacin,INDOMETHACIN,108,76,dev,12821a3a-b5f2-4415-84c9-0a30a4725f1e,4,20260817,Sportpharm LLC,ORAL,13,67
+levofloxacin,levofloxacin,LEVOFLOXACIN,109,76,test,5a65b2bc-9edc-f193-e063-6394a90a0104,1,20260901,Redpharm Drug,ORAL,13,93
+losartan_and_hydrochlorothiazide,losartan and hydrochlorothiazide,LOSARTAN POTASSIUM AND HYDROCHLOROTHIAZIDE,110,76,test,446e6998-01f6-4de0-be57-7fecf5448e95,11,20260807,REMEDYREPACK INC.,ORAL,13,55
+carbamazepine,carbamazepine,CARBAMAZEPINE,111,75,test,e91f9de3-3fdd-0a6b-71ce-53a2cc142816,16,20260910,Apotex Corp.,ORAL,16,85
+ciprofloxacin,ciprofloxacin,CIPROFLOXACIN,112,75,test,922e9f5c-cc59-4d9e-bf42-a4b900d077ed,3,20260811,"Cardinal Health 107, LLC",ORAL,13,88
+etodolac,etodolac,ETODOLAC,113,73,dev,188cdd2e-4196-458c-9631-4fa9a0d309b8,4,20260903,REMEDYREPACK INC.,ORAL,16,71
+methylphenidate,methylphenidate,METHYLPHENIDATE HYDROCHLORIDE,114,73,dev,768bf181-d0d8-49e5-9c87-cacbb069e0b2,3,20260827,Northstar Rx LLC,ORAL,13,56
+bumetanide,bumetanide,BUMETANIDE,115,72,test,0fb78afc-d8bc-4ae8-8c0a-6d9c6f7a22c5,2,20260909,REMEDYREPACK INC.,ORAL,14,35
+oxcarbazepine,oxcarbazepine,OXCARBAZEPINE,117,72,test,8841174a-9f4b-424f-a50d-01478f2aeb29,1,20260826,Zameer Pharmaceuticals LLC,ORAL,12,73
+glimepiride,glimepiride,GLIMEPIRIDE,119,71,dev,fc9d8495-184c-3af1-e053-6394a90a5e29,2,20260622,St. Mary's Medical Park Pharmacy,ORAL,12,44
+minocycline,minocycline,MINOCYCLINE HYDROCHLORIDE,120,71,test,3e74e8a3-2670-97f5-e063-6394a90a361e,3,20260803,"PD-Rx Pharmaceuticals, Inc.",ORAL,12,33
+morphine,morphine,MORPHINE SULFATE,121,71,test,1f53de80-efc8-4930-b3e3-fba0d026af05,8,20260831,"Fresenius Kabi, USA LLC",INTRAMUSCULAR;INTRAVENOUS,13,74
+olmesartan,olmesartan,OLMESARTAN MEDOXOMIL,122,71,dev,1be698df-30a0-4117-8c24-7253af94c8ad,5,20260827,REMEDYREPACK INC.,ORAL,13,43
+cefdinir,cefdinir,CEFDINIR,123,70,test,5a72e445-b920-b97d-e063-6294a90af2ee,1,20260901,"NuCare Pharmaceuticals, Inc.",ORAL,15,48
+risperidone,risperidone,RISPERIDONE,124,70,test,4ab6d256-6590-45be-a5df-f505987f96c3,3,20260830,APOZEAL PHARMACEUTICALS INC,ORAL,13,100
+finasteride,finasteride,FINASTERIDE,125,69,test,c9a3cb34-9a8e-4538-ab90-32e08d8acc3a,11,20260909,Bryant Ranch Prepack,ORAL,12,45
+oseltamivir,oseltamivir,OSELTAMIVIR PHOSPHATE,126,69,dev,f26154bd-374c-44a8-983a-b2724a591653,10,20260908,Strides Pharma Science Limited,ORAL,12,60
+oxycodone,oxycodone,OXYCODONE HYDROCHLORIDE,127,69,test,338b5391-e5f7-40a2-8b15-57f47cbc4813,12,20260909,"KVK-TECH, INC.",ORAL,13,115
+oxycodone_and_acetaminophen,oxycodone and acetaminophen,OXYCODONE AND ACETAMINOPHEN,129,68,test,f5f7dfca-a5c7-4445-8a5e-9ec62f33f5be,10,20260806,Forte Bio-Pharma LLC,ORAL,16,107
+lacosamide,lacosamide,LACOSAMIDE,130,67,test,b9a0ca8c-593c-48e8-b2a7-d30d5f6e6a9b,3,20260812,Novadoz Pharmaceuticals LLC,ORAL,12,61
+prazosin,prazosin,PRAZOSIN HYDROCHLORIDE,131,65,dev,e4852fc2-b763-40e2-b8bb-a3f6da5c72fe,3,20260903,REMEDYREPACK INC.,ORAL,12,28
+carbidopa_and_levodopa,carbidopa and levodopa,CARBIDOPA AND LEVODOPA,132,64,test,9b17b028-964a-473c-823d-81423535bd66,6,20260801,Organon LLC,ORAL,15,47
+enalapril,enalapril,ENALAPRIL MALEATE,133,64,test,3fbc6cce-7ad5-49d5-9705-5f66ef92d544,3,20260901,REMEDYREPACK INC.,ORAL,15,68
+phenobarbital,phenobarbital,PHENOBARBITAL,136,63,test,4e2910f2-173d-4b5c-aad3-44f4ab40d8cb,5,20260902,REMEDYREPACK INC.,ORAL,13,38
+eszopiclone,eszopiclone,ESZOPICLONE,137,62,test,9dfe774a-2c7a-4e10-bedd-cde64ad28676,2,20260910,REMEDYREPACK INC.,ORAL,13,49
+mesalamine,mesalamine,MESALAMINE,138,62,test,7951139c-b271-45a4-b523-34b23800917b,35,20260827,"Salix Pharmaceuticals, Inc.",ORAL,12,32
+folic_acid,folic acid,FOLIC ACID,139,61,test,bda4687e-929a-434d-ab59-909cf2ed73a2,3,20260911,REMEDYREPACK INC.,ORAL,13,19
+lansoprazole,lansoprazole,LANSOPRAZOLE,140,61,dev,7daa1721-f92b-4096-b19e-4d27fc8acb51,1,20260824,"Cardinal Health 107, LLC",ORAL,12,92
+sucralfate,sucralfate,SUCRALFATE,141,61,test,cbfbe146-5d42-4a55-9050-df2b5581487a,9,20260902,"VistaPharm, LLC",ORAL,14,22
+tamsulosin,tamsulosin,TAMSULOSIN HYDROCHLORIDE,142,61,test,f8302a6e-b8da-4931-a279-b49e37943816,4,20260901,Major Pharmaceuticals,ORAL,12,52
+triamterene_and_hydrochlorothiazide,triamterene and hydrochlorothiazide,TRIAMTERENE AND HYDROCHLOROTHIAZIDE,143,61,dev,5ee165a3-39a4-4d12-aff2-a6fb3309ce39,3,20260908,REMEDYREPACK INC.,ORAL,14,39
+valsartan,valsartan,VALSARTAN,144,61,test,5a816ea6-2645-bd6e-e063-6294a90a908b,1,20260902,"Aphena Pharma Solutions - Tennessee, LLC",ORAL,13,48
+nitroglycerin,nitroglycerin,NITROGLYCERIN,145,60,test,5b150cd2-fac8-86ce-e063-6294a90a67b9,1,20260909,"Medical Purchasing Solutions, LLC.",SUBLINGUAL,12,22
+penicillin_v,penicillin v,PENICILLIN V POTASSIUM,146,59,test,dd8a48b2-9ff1-49de-a53e-db4964c2384c,3,20260903,REMEDYREPACK INC.,ORAL,9,20
+memantine,memantine,MEMANTINE HYDROCHLORIDE,147,58,test,007d4cb9-3fa9-40f3-b5ca-4083eccd6038,1,20260901,"NCS HealthCare of KY, LLC dba Vangard Labs",ORAL,12,36
+metaxalone,metaxalone,METAXALONE,148,58,test,98713a2b-6666-44ea-9966-54e78041d27a,3,20260902,"PD-Rx Pharmaceuticals, Inc.",ORAL,12,26
+tretinoin,tretinoin,TRETINOIN,149,58,test,9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9,20,20260820,"Par Health USA, LLC",ORAL,13,46
+naloxone,naloxone,NALOXONE HYDROCHLORIDE,150,57,test,53ed164c-dd09-4ea4-e063-6294a90a2434,2,20260611,"HF Acquisition Co LLC, DBA HealthFirst",INTRAMUSCULAR;INTRAVENOUS;SUBCUTANEOUS,10,27
+phenylephrine,phenylephrine,PHENYLEPHRINE HYDROCHLORIDE,151,57,test,e1a7ab4b-0afe-4463-a039-5be0323cf2f7,13,20260819,Hikma Pharmaceuticals USA Inc.,INTRAVENOUS,12,24
+progesterone,progesterone,PROGESTERONE,152,57,test,947ebb7c-492b-4b83-aa1c-81e282df6421,4,20260828,REMEDYREPACK INC.,ORAL,14,48
+benazepril,benazepril,BENAZEPRIL HYDROCHLORIDE,153,56,test,ff732cfa-9ded-4226-b464-19c90a6865ae,2,20260819,"ANI Pharmaceuticals, Inc.",ORAL,13,40
+heparin,heparin,HEPARIN SODIUM,155,56,test,c8c4edd2-ee9e-4558-6b8c-b83adc242a0a,24,20260825,"Hospira, Inc.",INTRAVENOUS;SUBCUTANEOUS,12,41
+lovastatin,lovastatin,LOVASTATIN,157,55,dev,9438d8a0-ca5b-4676-aab9-d0241ccff6c9,5,20260723,REMEDYREPACK INC.,ORAL,15,87
+ofloxacin,ofloxacin,OFLOXACIN,158,55,test,42366170-e536-46a1-9735-d76e5820a9de,4,20260831,REMEDYREPACK INC.,AURICULAR (OTIC),13,27
+atropine,atropine,ATROPINE SULFATE,159,54,test,8663ff94-8bea-4061-9fd5-3ab2e85e862e,3,20260904,REMEDYREPACK INC.,ENDOTRACHEAL;INTRAMEDULLARY;INTRAMUSCULAR;INTRAVENOUS;SUBCUTANEOUS,12,27
+nortriptyline,nortriptyline,NORTRIPTYLINE HYDROCHLORIDE,160,54,test,4852a754-2fc1-4c10-a414-dc8a1dfd66a2,3,20260903,REMEDYREPACK INC.,ORAL,14,44
+fluticasone,fluticasone,FLUTICASONE PROPIONATE,161,53,dev,bc08915f-fa3a-4509-a01c-42b577f39b99,1,20260819,"Glenmark Pharmaceuticals Inc., USA",NASAL,12,42
+lithium,lithium,LITHIUM CARBONATE,162,53,test,b839ff4b-f62d-41ab-a823-550a756d58ec,3,20260816,Hikma Pharmaceuticals USA Inc.,ORAL,13,48
+sulfacetamide_and_sulfur,sulfacetamide and sulfur,"SULFACETAMIDE SODIUM, SULFUR",163,53,test,b21b36da-5475-4b01-8afd-1598f29c9b5d,4,20260713,"Acella Pharmaceuticals, LLC",TOPICAL,10,11
+tobramycin,tobramycin,TOBRAMYCIN,164,53,test,5563e8af-c6c9-42a2-974d-7d364a47f00a,7,20260729,Lifestar Pharma LLC,RESPIRATORY (INHALATION),12,31
+acetaminophen_and_codeine,acetaminophen and codeine,ACETAMINOPHEN AND CODEINE PHOSPHATE,166,51,dev,40d4a71e-341e-48b3-b925-ba35b7910dff,3,20260827,REMEDYREPACK INC.,ORAL,11,93
+colchicine,colchicine,COLCHICINE,167,51,test,5a0b4246-e7dd-29e5-e063-6294a90a2871,1,20260827,Direct_Rx,ORAL,13,55
+metoclopramide,metoclopramide,METOCLOPRAMIDE,169,51,test,595439ae-cf01-821c-e063-6294a90af16a,1,20260818,"Aphena Pharma Solutions - Tennessee, LLC",ORAL,13,49
+midodrine,midodrine,MIDODRINE HYDROCHLORIDE,170,50,dev,863f12bd-d4a9-4547-8667-5dfa9e2ce6d1,13,20260820,"Par Health USA, LLC",ORAL,14,28
+nabumetone,nabumetone,NABUMETONE,171,50,dev,55e733f0-7633-4412-b5a3-07d9363bbd71,1,20260819,Sportpharm LLC,ORAL,16,65
+acetazolamide,acetazolamide,ACETAZOLAMIDE,173,49,test,4813b9dd-5f58-44bb-ad64-cdb331828080,12,20260819,Strides Pharma Science Limited,ORAL,13,27
+amiodarone,amiodarone,AMIODARONE HYDROCHLORIDE,174,49,test,4c149392-a4f0-4e2d-a13f-2b94810005de,8,20260805,REMEDYREPACK INC.,ORAL,13,49
+hydroxychloroquine,hydroxychloroquine,HYDROXYCHLOROQUINE SULFATE,175,49,test,ebe00e35-ed3d-40f4-9a93-a37b0da01ddb,8,20260727,Major Pharmaceuticals,ORAL,12,42
+carisoprodol,carisoprodol,CARISOPRODOL,177,48,test,b83f7fd1-11e3-4e94-ae53-4637e892b372,15,20260729,REMEDYREPACK INC.,ORAL,12,24
+citalopram,citalopram,CITALOPRAM,178,48,dev,aa9c1440-354f-43a6-9e70-fd7bafcb03c5,15,20260727,REMEDYREPACK INC.,ORAL,13,63
+guanfacine,guanfacine,GUANFACINE,179,48,dev,8348e63a-5cbc-489e-b7bf-046c65ba2e8e,5,20260902,REMEDYREPACK INC.,ORAL,12,52
+valsartan_and_hydrochlorothiazide,valsartan and hydrochlorothiazide,VALSARTAN AND HYDROCHLOROTHIAZIDE,180,48,test,167f49f0-2d39-49a2-9f9e-1359a7c7ba3d,1016,20260730,Bryant Ranch Prepack,ORAL,13,51
+donepezil,donepezil,DONEPEZIL HYDROCHLORIDE,181,47,test,37fc6638-4a63-4582-a64c-3525f8ed7ef2,2,20260909,REMEDYREPACK INC.,ORAL,12,39
+doxazosin,doxazosin,DOXAZOSIN,182,47,test,30a6bb83-f91b-4c4f-a849-4f2be3735a0e,6,20260814,REMEDYREPACK INC.,ORAL,12,33
+hyoscyamine,hyoscyamine,HYOSCYAMINE SULFATE,183,47,test,584755e4-fea9-4827-e063-6394a90a4a0a,1,20260805,Redpharm Drug,SUBLINGUAL,15,19
+montelukast,montelukast,MONTELUKAST SODIUM,184,47,test,1eeb3123-9e93-4681-8096-800a7c7acf8a,3,20260728,Preferred Pharmaceuticals Inc.,ORAL,13,58
+tranexamic_acid,tranexamic acid,TRANEXAMIC ACID,185,47,test,fb2fcae9-6aa0-4708-b250-b0e40beb147e,2,20260829,Milla Pharmaceuticals Inc.,INTRAVENOUS,13,30
+valacyclovir,valacyclovir,VALACYCLOVIR,186,47,test,14e479b1-8afd-4912-8f93-59b60a0868bc,1,20260905,Sportpharm LLC,ORAL,12,67
+daptomycin,daptomycin,DAPTOMYCIN,187,46,test,e6fef9de-e357-4fa3-8839-f483edf1b4d0,2,20260826,Aspiro Pharma Limited,INTRAVENOUS,12,83
+ketoconazole,ketoconazole,KETOCONAZOLE,189,46,test,1d598696-c6f3-4b7c-ad73-949d2089df35,2,20260810,Amerisyn LLC,ORAL,12,42
+norgestimate_and_ethinyl_estradiol,norgestimate and ethinyl estradiol,NORGESTIMATE AND ETHINYL ESTRADIOL,190,46,dev,90240210-0bca-4a55-99dc-19f2b40d8e3f,9,20260831,"Preferred Pharmaceuticals, Inc.",,13,49
+warfarin,warfarin,WARFARIN SODIUM,192,46,test,7c4deb97-9966-4c8e-9ba6-bb260b71e130,6,20260825,"Cardinal Health 107, LLC",ORAL,13,58
+budesonide,budesonide,BUDESONIDE,193,45,test,3235e2a4-8e12-2d58-e063-6294a90a4936,3,20260716,"Rising Pharma Holdings, Inc.",RESPIRATORY (INHALATION),12,59
+bupivacaine,bupivacaine,BUPIVACAINE HYDROCHLORIDE,194,45,dev,ee3b5bbe-4013-4682-b6ee-db86e7788077,3,20260720,NorthStar RxLLC,EPIDURAL;INFILTRATION;INTRACAUDAL;PERINEURAL;RETROBULBAR,13,57
+paroxetine,paroxetine,PAROXETINE,195,45,dev,598ece4d-0ac4-993b-e063-6294a90a1d34,1,20260821,Coupler LLC,ORAL,13,70
+rocuronium,rocuronium,ROCURONIUM BROMIDE,196,45,test,58ce3f40-cbb9-db9e-e063-6394a90ae611,1,20260811,"HF Acquisition Co. LLC, DBA HealthFirst",INTRAVENOUS,12,54
+ropinirole,ropinirole,ROPINIROLE,197,45,test,cdc63b7a-062a-4519-a63e-e48a356f641c,3,20260904,REMEDYREPACK INC.,ORAL,12,56
+sotalol,sotalol,SOTALOL HYDROCHLORIDE,198,45,test,7cb4879f-31e7-4862-bc0c-d439e592d81c,18,20260828,A-S Medication Solutions,ORAL,13,50
+sumatriptan,sumatriptan,SUMATRIPTAN SUCCINATE,199,45,test,bf9fd9fe-095b-4478-bd2e-a5534af07761,10,20260903,"Preferred Pharmaceuticals, Inc.",ORAL,12,41
+naltrexone,naltrexone,NALTREXONE HYDROCHLORIDE,201,44,test,db911559-26f5-43a0-b61f-3425176c936f,3,20260908,REMEDYREPACK INC.,ORAL,14,52
+digoxin,digoxin,DIGOXIN,202,43,test,e61d2108-d871-44c0-b12a-2e61fbb56967,1,20260727,Bryant Ranch Prepack,ORAL,12,56
+gemfibrozil,gemfibrozil,GEMFIBROZIL,203,43,test,42e40524-57e9-4fee-993f-be0fda14936b,3,20260903,REMEDYREPACK INC.,ORAL,10,42
+irbesartan,irbesartan,IRBESARTAN,204,43,test,7885b2a8-be4e-48ab-8113-4e6ab791eb98,22,20260824,Sanofi-Aventis U.S. LLC,ORAL,13,33
+levocetirizine,levocetirizine,LEVOCETIRIZINE DIHYDROCHLORIDE,205,43,test,60ae7e0e-281c-40a3-a0d3-259b843ddaaa,20,20260909,"Glenmark Pharmaceuticals Inc., USA",ORAL,12,48
+meclizine,meclizine,MECLIZINE HYDROCHLORIDE,206,43,test,21d4a6ee-0a66-45d7-bab9-c5eef399713d,11,20260901,REMEDYREPACK INC.,ORAL,11,15
+mycophenolate,mycophenolate,MYCOPHENOLATE MOFETIL,207,43,dev,84c6f6bb-8924-4da5-9629-126197195f83,3,20260909,REMEDYREPACK INC.,ORAL,13,86
+amantadine,amantadine,AMANTADINE HYDROCHLORIDE,208,42,test,547904f3-84a3-1ccb-e063-6294a90a6fb6,1,20260617,AvKARE,ORAL,14,51
+rizatriptan,rizatriptan,RIZATRIPTAN BENZOATE,209,42,test,1e547fac-a9e5-4c7b-adba-4e6b75141183,3,20260908,REMEDYREPACK INC.,ORAL,12,46
+voriconazole,voriconazole,VORICONAZOLE,210,42,test,c620b2d7-3c2b-4252-8cfc-2f322d624435,2,20260827,American Health Packaging,ORAL,12,124
+clopidogrel,clopidogrel,CLOPIDOGREL BISULFATE,211,41,test,bb3b5e96-e629-4db5-8ad5-40c17c6dae18,8,20260929,"Westminster Pharmaceuticals, LLC",ORAL,13,42
+fluocinolone,fluocinolone,FLUOCINOLONE ACETONIDE,212,41,test,113e167a-a9fe-440e-9446-d6d87963ef46,16,20260609,Royal Pharmaceuticals,TOPICAL,10,22
+loperamide,loperamide,LOPERAMIDE HYDROCHLORIDE,213,41,dev,3fdfc0e5-56a2-48a0-8ee6-390a194a29f3,7,20260807,REMEDYREPACK INC.,ORAL,15,45
+methotrexate,methotrexate,METHOTREXATE,214,41,test,dd035a9f-cd40-4314-b9d8-2294b8a924e2,7,20260904,"Accord Healthcare, Inc.",INTRA-ARTERIAL;INTRAMUSCULAR;INTRATHECAL;INTRAVENOUS,13,63
+sevelamer,sevelamer,SEVELAMER CARBONATE,217,41,test,462a11b9-78a3-4d8b-ae5d-3d6528e4d743,102,20260827,Bryant Ranch Prepack,ORAL,12,25
+testosterone,testosterone,TESTOSTERONE CYPIONATE,219,41,test,cfbb53d4-b868-4a28-8436-f9112eb01c39,26,20260821,Pharmacia & Upjohn Company LLC,INTRAMUSCULAR,14,25
+atomoxetine,atomoxetine,ATOMOXETINE,220,40,test,d7002d75-edad-4141-91bf-7eebf50ad1aa,3,20260904,REMEDYREPACK INC.,ORAL,13,81
+clarithromycin,clarithromycin,CLARITHROMYCIN,222,40,test,9d5848f0-e9f0-4112-a7ca-bcc8ea2e69c6,14,20260624,REMEDYREPACK INC.,ORAL,12,86
+dexmethylphenidate,dexmethylphenidate,DEXMETHYLPHENIDATE HYDROCHLORIDE,223,40,test,dd659d39-41f5-4612-8f17-bad602b4784d,25,20260701,"Teva Pharmaceuticals USA, Inc.",ORAL,13,57
+ezetimibe,ezetimibe,EZETIMIBE,224,40,test,090776cf-f211-49a3-a993-ff5d707311f2,3,20260706,A-S Medication Solutions,ORAL,12,37
+levonorgestrel_and_ethinyl_estradiol,levonorgestrel and ethinyl estradiol,LEVONORGESTREL AND ETHINYL ESTRADIOL,225,40,dev,b2482d51-d606-4aaa-8af4-19e4fe2f8872,7,20260827,"Exeltis USA, Inc.",,13,46
+prochlorperazine,prochlorperazine,PROCHLORPERAZINE MALEATE,227,40,test,851dddc0-26da-48eb-b039-cd85384ce864,3,20260904,REMEDYREPACK INC.,ORAL,10,39
+ramelteon,ramelteon,RAMELTEON,228,40,test,5a3cf917-3569-4fc1-8b81-ffecfd2de005,3,20260901,REMEDYREPACK INC.,ORAL,12,41

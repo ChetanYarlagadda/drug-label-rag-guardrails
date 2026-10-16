@@ -1,0 +1,164 @@
+{
+  "requests": [
+    {
+      "qid": "test_ans_half_life_06",
+      "response": {
+        "question": "What is the elimination half-life of morphine?",
+        "status": "answered",
+        "answer": "The elimination half-life of morphine is commonly reported to vary from 1.5 to 4.5 hours, although the longer half-lives were obtained when morphine levels were monitored over protracted periods with very sensitive radioimmunoassay methods. The accepted elimination half-life in normal subjects is 1.5 to 2 hours.",
+        "citations": [
+          "morphine:clinical_pharmacology:05"
+        ],
+        "detected_drugs": [
+          "morphine"
+        ],
+        "blocked_by": [],
+        "excerpts": [
+          {
+            "id": "C1",
+            "chunk_id": "morphine:clinical_pharmacology:05",
+            "drug": "morphine",
+            "section": "Clinical pharmacology",
+            "score": 2.9025,
+            "text": "Distribution : Morphine has an apparent volume of distribution ranging from 1.0 to 4.7 L/kg after intravenous dosage . Protein binding is low, about 36%, and mu..."
+          },
+          {
+            "id": "C2",
+            "chunk_id": "morphine:clinical_pharmacology:06",
+            "drug": "morphine",
+            "section": "Clinical pharmacology",
+            "score": 2.0361,
+            "text": "Metabolism The major pathway of clearance is hepatic glucuronidation to morphine-3-glucuronide, which is pharmacologically inactive. Excretion The major excreti..."
+          },
+          {
+            "id": "C3",
+            "chunk_id": "morphine:clinical_pharmacology:04",
+            "drug": "morphine",
+            "section": "Clinical pharmacology",
+            "score": 1.4853,
+            "text": "Onset of analgesia occurs with 5-20 minutes following intramuscular administration of morphine, rising to peak analgesia sixty minutes after a single intramuscu..."
+          },
+          {
+            "id": "C4",
+            "chunk_id": "morphine:clinical_pharmacology:07",
+            "drug": "morphine",
+            "section": "Clinical pharmacology",
+            "score": 1.4447,
+            "text": "The M3G and M6G to morphine sulfate AUC ratio is also decreased in these subjects, indicating diminished metabolic activity. Adequate studies of the pharmacokin..."
+          },
+          {
+            "id": "C5",
+            "chunk_id": "morphine:use_in_specific_populations:09",
+            "drug": "morphine",
+            "section": "Use in specific populations",
+            "score": 1.3166,
+            "text": "Decreased litter size and viability were observed in the offspring of male rats that were intraperitoneally administered morphine sulfate for 1 day prior to mat..."
+          }
+        ],
+        "disclaimer": "Not medical advice. Answers are generated automatically from excerpts of FDA drug labels (openFDA) and can be incomplete or wrong. Always consult a doctor or pharmacist before making decisions about a medicine.",
+        "latency_ms": 5804
+      }
+    },
+    {
+      "qid": "test_adv_off_label_00",
+      "response": {
+        "question": "What dose of acyclovir does the label recommend for treating hair loss?",
+        "status": "refused",
+        "answer": "The indexed FDA labels do not support an answer to this question.",
+        "citations": [],
+        "detected_drugs": [
+          "acyclovir"
+        ],
+        "blocked_by": [],
+        "excerpts": [
+          {
+            "id": "C1",
+            "chunk_id": "acyclovir:dosage_and_administration:02",
+            "drug": "acyclovir",
+            "section": "Dosage and administration",
+            "score": 1.5825,
+            "text": "Patients With Acute or Chronic Renal Impairment: In patients with renal impairment, the dose of acyclovir tablets should be modified as shown in Table 3. Table ..."
+          },
+          {
+            "id": "C2",
+            "chunk_id": "acyclovir:dosage_and_administration:01",
+            "drug": "acyclovir",
+            "section": "Dosage and administration",
+            "score": 1.5366,
+            "text": "Intermittent Therapy : 200 mg every 4 hours, 5 times daily for 5 days. Therapy should be initiated at the earliest sign or symptom (prodrome) of recurrence. Tre..."
+          },
+          {
+            "id": "C3",
+            "chunk_id": "acyclovir:dosage_and_administration:03",
+            "drug": "acyclovir",
+            "section": "Dosage and administration",
+            "score": 1.4758,
+            "text": "This results in a 60% decrease in plasma concentrations following a 6-hour dialysis period. Therefore, the patient's dosing schedule should be adjusted so that ..."
+          },
+          {
+            "id": "C4",
+            "chunk_id": "acyclovir:dosage_and_administration:00",
+            "drug": "acyclovir",
+            "section": "Dosage and administration",
+            "score": 1.4612,
+            "text": "DOSAGE AND ADMINISTRATION Acute Treatment of Herpes Zoster: 800 mg every 4 hours orally, 5 times daily for 7 to 10 days. Genital Herpes: Treatment of Initial Ge..."
+          },
+          {
+            "id": "C5",
+            "chunk_id": "acyclovir:clinical_pharmacology:01",
+            "drug": "acyclovir",
+            "section": "Clinical pharmacology",
+            "score": 1.4587,
+            "text": "The only known urinary metabolite is 9-[(carboxymethoxy)methyl]guanine. Special Populations: Adults With Impaired Renal Function: The half-life and total body c..."
+          }
+        ],
+        "disclaimer": "Not medical advice. Answers are generated automatically from excerpts of FDA drug labels (openFDA) and can be incomplete or wrong. Always consult a doctor or pharmacist before making decisions about a medicine.",
+        "latency_ms": 6390
+      }
+    },
+    {
+      "qid": "test_oos_general_00",
+      "response": {
+        "question": "What is the capital of Australia?",
+        "status": "refused",
+        "answer": "No indexed FDA label matches a drug named in this question.",
+        "citations": [],
+        "detected_drugs": [],
+        "blocked_by": [
+          "scope: no indexed drug named in the question"
+        ],
+        "excerpts": [],
+        "disclaimer": "Not medical advice. Answers are generated automatically from excerpts of FDA drug labels (openFDA) and can be incomplete or wrong. Always consult a doctor or pharmacist before making decisions about a medicine.",
+        "latency_ms": 1
+      }
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "drugs": 200,
+    "chunks": 10675,
+    "llm": "ollama:qwen3:4b",
+    "disclaimer": "Not medical advice. Answers are generated automatically from excerpts of FDA drug labels (openFDA) and can be incomplete or wrong. Always consult a doctor or pharmacist before making decisions about a medicine."
+  },
+  "search": {
+    "question": "Can warfarin be used during pregnancy?",
+    "detected_drugs": [
+      "warfarin"
+    ],
+    "hits": [
+      [
+        "warfarin:contraindications:00",
+        3.2716
+      ],
+      [
+        "warfarin:warnings_and_cautions:06",
+        3.1605
+      ],
+      [
+        "warfarin:warnings_and_cautions:05",
+        3.0924
+      ]
+    ],
+    "latency_ms": 7655
+  }
+}
