@@ -1,5 +1,7 @@
 # Grounded Drug-Label QA: Citations and Refusals
 
+[![CI](https://github.com/ChetanYarlagadda/drug-label-rag-guardrails/actions/workflows/ci.yml/badge.svg)](https://github.com/ChetanYarlagadda/drug-label-rag-guardrails/actions/workflows/ci.yml)
+
 **Can a small local LLM answer questions from FDA drug labels with correct citations, and refuse when the labels do
 not support an answer?** This project builds a retrieval-augmented QA system over 200 openFDA prescription labels
 and tests it on answerable, unanswerable, out-of-scope and adversarial questions whose gold answers and gold
@@ -330,6 +332,7 @@ data/labels/      reference_labels.csv (reference labels for the 31 judged respo
 reports/          figures/ and results/ (every number quoted above, every response)
 tests/            pytest suite on synthetic labels: chunking and section de-duplication, gold extraction and
                   scoring rules, citation parsing, guardrails, LLM cache, retrieval fusion, API with a fake model
+.github/workflows/ CI: pyflakes and pytest on every push (CPU-only PyTorch; no labels, models or Ollama needed)
 ```
 
 ## License
