@@ -108,7 +108,7 @@ the right content under the wrong status and is counted as a failure.
 | format | a reply that is not valid JSON becomes the standard refusal | 4 / 1 refusal texts replaced |
 | scope | a question that names no indexed drug is refused (in the API, before any model call) | 0 / 1 answer blocked ("Canberra") |
 | citation | an answer must cite at least one excerpt, only from drugs the question names | 0 / 0 |
-| numbers | every number in an answer must appear in a cited excerpt or the question (list markers excepted); a refusal that states numbers from none of the excerpts is replaced | 1 / 0 answer blocked (phenylephrine molecular weight from memory) |
+| numbers | every number in an answer must appear in a cited excerpt or the question (excerpt ids and list markers excepted; numbers in square brackets count on both sides); a refusal that states numbers from none of the excerpts is replaced | 1 / 0 answer blocked (phenylephrine molecular weight from memory) |
 
 <sub>[`guard_blocks.csv`](reports/results/guard_blocks.csv).</sub>
 

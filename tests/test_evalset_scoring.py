@@ -1,8 +1,8 @@
 import numpy as np
 import pytest
 
-from labelrag.evalset import (EvalItem, answerable_gold, boxed_heading, canon, half_life, heading_topics,
-                              molecular_weight, numbers_in, storage_temperature, strengths)
+from labelrag.evalset import (EvalItem, answerable_gold, boxed_heading, canon, claimed_numbers, half_life,
+                              heading_topics, molecular_weight, numbers_in, storage_temperature, strengths)
 from labelrag.scoring import answer_correct, cohen_kappa, mcnemar_exact, refusal_scores, retrieval_metrics, wilson
 
 
@@ -38,6 +38,11 @@ def test_molecular_weight_half_life_and_heading():
 def test_numbers_ignore_citation_ids():
     assert numbers_in("It is 1,000 mg [C2] and 2.50 mL (C3).") == {"1000", "2.5"}
     assert canon("068") == "68"
+    # the gold and answer rules drop every bracket (cross-references are not values) ...
+    assert numbers_in("The half-life is 7.5 hours [see Drug Interactions (7)].") == {"7.5"}
+    # ... the numbers guardrail drops only excerpt ids
+    assert claimed_numbers("It is 1,000 mg [C2] [C1, C3] [2] (C3) [see Drug Interactions (7)] [12.5 mg].") == \
+        {"1000", "7", "12.5"}
 
 
 def test_gold_chunks_point_at_the_evidence(drugs, chunks):

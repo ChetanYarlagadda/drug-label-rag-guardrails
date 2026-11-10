@@ -79,9 +79,26 @@ def canon(x: str) -> str:
 
 
 def numbers_in(text: str) -> set[str]:
-    """Canonical numbers in a text, ignoring excerpt ids such as C2 or [C2]."""
+    """Canonical numbers in a text, ignoring excerpt ids such as C2 and all square-bracketed text.
+
+    Dropping brackets keeps label cross-references such as "[see Drug Interactions (7)]" out of the gold-evidence
+    rules and the answer rules (a section number is not a half-life). The numbers guardrail needs every number, so
+    it uses ``claimed_numbers`` instead.
+    """
     text = re.sub(r"\[[^\]]*\]|\bC\d+\b", " ", text)
     return {canon(m) for m in _NUM.findall(text)}
+
+
+_EXCERPT_IDS = re.compile(r"\[\s*C?\d+(?:\s*[,;]\s*C?\d+)*\s*\]|\bC\d+\b")  # C2, [C2], [C1, C3], [2]
+
+
+def claimed_numbers(text: str) -> set[str]:
+    """Canonical numbers in a text except excerpt ids (C2, [C2], [C1, C3]); numbers in other brackets count.
+
+    Used by the numbers guardrail, where a value the model writes in brackets ("[129.16 g/mol]") is still a claim
+    and a value the label states in brackets ("[140 - age (years)]") is still supported.
+    """
+    return {canon(m) for m in _NUM.findall(_EXCERPT_IDS.sub(" ", text))}
 
 
 # ---------------------------------------------------------------------------------------------- gold extraction

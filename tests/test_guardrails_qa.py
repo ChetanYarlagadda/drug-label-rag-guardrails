@@ -1,6 +1,6 @@
 import json
 
-from labelrag.guardrails import REFUSAL_TEXT, apply_guards
+from labelrag.guardrails import REFUSAL_TEXT, apply_guards, unsupported_numbers
 from labelrag.llm import CachedChat, ChatReply
 from labelrag.qa import Generation, generate, parse_reply
 from labelrag.retrieval import rrf, top_k
@@ -58,6 +58,22 @@ def test_guards_block_other_drug_citations_and_unsupported_numbers(chunks):
     listed = apply_guards(q, ["alphazol"], _gen("Risks: 1) acidosis 2) weight 165.62.", ["alphazol:description:00"]),
                           chunk_drug, chunk_text)
     assert listed.status == "answered"  # list markers are not numeric claims
+
+
+def test_number_guard_sees_numbers_in_square_brackets(chunks):
+    """Only excerpt ids are skipped: a bracketed number is still a claim in the answer and still support in a label."""
+    chunk_drug = {c.chunk_id: c.drug_id for c in chunks}
+    chunk_text = {c.chunk_id: c.text for c in chunks}
+    q = "What is the molecular weight of alphazol?"
+    hidden = apply_guards(q, ["alphazol"], _gen("It is [129.16 g/mol] (C1).", ["alphazol:description:00"]),
+                          chunk_drug, chunk_text)
+    assert hidden.status == "refused" and hidden.blocked_by == ["numbers: 129.16 not in the cited excerpts"]
+    ids_only = apply_guards(q, ["alphazol"], _gen("It is 165.62 [C1] [C1, C2] [1].", ["alphazol:description:00"]),
+                            chunk_drug, chunk_text)
+    assert ids_only.status == "answered" and ids_only.blocked_by == []
+    label = "Estimate creatinine clearance as [140 - age (years)] x weight (kg) / [72 x serum creatinine (mg/dL)]."
+    assert unsupported_numbers("Use (140 - age) x weight / (72 x creatinine).", "How is CrCl estimated?", [label]) == []
+    assert unsupported_numbers("Use (150 - age) x weight / 72.", "How is CrCl estimated?", [label]) == ["150"]
 
 
 def test_generate_uses_cache(tmp_path, chunks):

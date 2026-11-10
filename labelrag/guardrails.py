@@ -3,7 +3,8 @@
 - scope: the question must name an indexed drug (otherwise there is no label to answer from);
 - citation: an answer must cite at least one excerpt, and every cited excerpt must come from a drug the question names;
 - numbers: every number in an answer must appear in the cited excerpts or in the question (and every number in a
-  refusal's explanation in the excerpts shown or the question).
+  refusal's explanation in the excerpts shown or the question). Only excerpt ids and list markers are skipped;
+  numbers inside square brackets count on both sides.
 
 A response that fails any check, or a reply that is not valid JSON, is turned into a refusal; the reasons are kept
 for the audit trail.
@@ -14,7 +15,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from labelrag.evalset import numbers_in
+from labelrag.evalset import claimed_numbers
 from labelrag.qa import Generation
 
 REFUSAL_TEXT = "The indexed FDA labels do not support an answer to this question."
@@ -46,10 +47,10 @@ _ENUM = re.compile(r"\(\d{1,2}\)|(?<![\w.])\d{1,2}\)")  # list markers such as "
 
 def unsupported_numbers(text: str, question: str, sources: list[str]) -> list[str]:
     """Numbers in ``text`` that appear neither in the question nor in any of the source texts."""
-    allowed = numbers_in(question)
+    allowed = claimed_numbers(question)
     for t in sources:
-        allowed |= numbers_in(t)
-    return sorted(numbers_in(_ENUM.sub(" ", text)) - allowed, key=float)
+        allowed |= claimed_numbers(t)
+    return sorted(claimed_numbers(_ENUM.sub(" ", text)) - allowed, key=float)
 
 
 def number_check(gen: Generation, question: str, chunk_text: dict[str, str]) -> str | None:
